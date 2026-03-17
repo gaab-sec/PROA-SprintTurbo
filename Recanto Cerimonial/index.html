@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recanto Cerimonial - Agende o seu casamento</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="logo" href="#"><img src="" alt="">Recanto Cerimonial</a>
+                <nav class="nav">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#depoimentos">Depoimentos</a>
+                    <a class="btn-primary" href="#agendar">Agendar</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero" id="home">
+                <div class="container hero-content">
+                    <div>
+                        <h1>O casamento dos seus sonhos começa aqui</h1>
+                        <p style="text-align: left;">Planejamos cada detalhe para tornar seu dia inesquecível. Escolha data, local e serviço, que nós cuidamos do resto.</p>
+                        <a class="btn-primary" href="#agendar">Agendar uma visita</a>
+                    </div>
+                    <div class="hero-image" aria-hidden="true"></div>
+                </div>
+            </section>
+
+            <section class="sobre" id="sobre">
+                <div class="container">
+                    <h2>Quem somos</h2>
+                    <p>No Recanto Cerimonial, oferecemos atendimento personalizado para casais que desejam vivenciar um evento único. Nossa equipe reúne experiência em decoração, buffet, música e coordenação para entregar um casamento memorável.</p>
+                </div>
+            </section>
+
+            <section class="servicos" id="servicos">
+                <div class="container">
+                    <h2>Nossos serviços</h2>
+                    <div class="cards">
+                        <article class="card">
+                            <h3>Planejamento completo</h3>
+                            <p>Do conceito à execução, cuidamos de todo o cronograma, fornecedores e logística do seu grande dia.</p>
+                        </article>
+                        <article class="card">
+                            <h3>Decoração personalizada</h3>
+                            <p>Montámos cenários que reflitam a identidade do casal, com flores, iluminação e ambientação única.</p>
+                        </article>
+                        <article class="card">
+                            <h3>Assessoria e cerimonial</h3>
+                            <p>Equipe especializada para conduzir cerimonia, recepção e garantir que tudo aconteça no tempo certo.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="agendar" id="agendar">
+                <div class="container">
+                    <h2>Agende uma visita</h2>
+                    <p>Preencha o formulário abaixo e entraremos em contato para montar a proposta perfeita para você.</p>
+                    <form class="form" action="#" method="post">
+                        <div class="form-grid">
+                            <label>
+                                Nome
+                                <input type="text" name="nome" placeholder="Seu nome" required>
+                            </label>
+                            <label>
+                                E-mail
+                                <input type="email" name="email" placeholder="seu@exemplo.com" required>
+                            </label>
+                            <label>
+                                Data do casamento
+                                <input type="date" name="data" required>
+                            </label>
+                            <label>
+                                Local (cidade / estado)
+                                <input type="text" name="local" placeholder="Onde será o evento" required>
+                            </label>
+                        </div>
+                        <label class="full-width">
+                            Mensagem (opcional)
+                            <textarea name="mensagem" rows="4" placeholder="Conte-nos mais sobre sua ideia"></textarea>
+                        </label>
+                        <button class="btn-primary" type="submit">Enviar pedido</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="depoimentos" id="depoimentos">
+                <div class="container">
+                    <h2>O que nossos casais dizem</h2>
+                    <div class="testimonials">
+                        <blockquote>
+                            “O Recanto Cerimonial tornou nosso casamento mágico. Cada detalhe foi perfeito e a equipe se antecipou a tudo.”
+                            <footer>— Ana & João</footer>
+                        </blockquote>
+                        <blockquote>
+                            “Atendimento impecável e muita criatividade no projeto. Recomendamos para quem quer tranquilidade no dia.”
+                            <footer>— Luiza & Paulo</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <div>
+                    <h3>Recanto Cerimonial</h3>
+                    <p>Rua Exemplo, 123 • Bairro dos Sonhos • Cidade dos Noivos</p>
+                    <p>Email: contato@recantocerimonial.com | Tel: (11) 99999-9999</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#agendar">Agendar</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> Recanto Cerimonial. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
+    </body>
+</html>
