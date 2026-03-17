@@ -74,14 +74,12 @@
 }
 
 .photos {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 2rem;
 }
 
 .photos img {
-    width: 100%;
+    margin-top: 1rem;
+    width: 70%;
     height: auto;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
