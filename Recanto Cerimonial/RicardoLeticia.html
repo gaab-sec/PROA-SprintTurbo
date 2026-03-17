@@ -1,81 +1,138 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casamento de Ricardo e Letícia - Recanto Cerimonial</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/RicardoLeticia.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="site-header">
-        <div class="container header-inner">
-            <a href="index.html"><img src="./IMAGENS/Logo.png" alt="Logo Recanto Cerimonial" class="logo"></a>
-            <nav class="nav">
-                <a href="index.html">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#casamentos">Casamentos</a>
-                <a href="#contato">Contato</a>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>Casamento de Ricardo e Letícia</h1>
-            <p style="color: white;">Uma história de amor celebrada no Recanto Cerimonial</p>
-        </div>
-    </section>
-
-    <!-- The Couple -->
-    <section class="couple">
-        <div class="container">
-            <h2>Conheça Ricardo e Letícia</h2>
-            <p>Ricardo e Letícia se conheceram na faculdade e desde então construíram uma linda história de amor. Seu casamento foi um sonho realizado, cheio de emoção e alegria.</p>
-            <div class="couple-photos">
-                <img src="./IMAGENS/ricardo.jpg" alt="Ricardo" width="310" height="430">
-                <img src="./IMAGENS/leticia.jpg" alt="Letícia" width="310" height="430">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recanto Cerimonial - Agende o seu casamento</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" type="image/png" href="IMAGENS/logohome.png">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <img src="./IMAGENS/Logo.png" alt="Logo Recanto Cerimonial" class="logo">
+                <nav class="nav">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#depoimentos">Depoimentos</a>
+                    <a class="btn-primary"href="RicardoLeticia.html">Clientes satisfeitos</a>
+                </nav>
             </div>
-        </div>
-    </section>
+        </header>
 
-    <!-- Wedding Details -->
-    <section class="details">
-        <div class="container">
-            <h2>Detalhes do Casamento</h2>
-            <ul>
-                <li><strong>Data:</strong> 15 de junho de 2023</li>
-                <li><strong>Local:</strong> Recanto Cerimonial</li>
-                <li><strong>Cerimônia:</strong> 16:00</li>
-                <li><strong>Recepção:</strong> 18:00</li>
-            </ul>
-        </div>
-    </section>
+        <main>
+            <section class="hero" id="home">
+                <div class="container hero-content">
+                    <div>
+                        <h1>O casamento dos seus sonhos começa aqui</h1>
+                        <p style="text-align: left; margin-left: 0;">Planejamos cada detalhe para tornar seu dia inesquecível. Escolha data, local e serviço, que nós cuidamos do resto.</p>
+                        <a class="btn-primary" href="#agendar">Agendar uma visita</a>
+                    </div>
+                    <div class="hero-image" aria-hidden="true"></div>
+                </div>
+            </section>
 
-    <!-- Gallery -->
-    <section class="gallery">
-        <div class="container">
-            <h2>Galeria de Fotos</h2>
-            <div class="photos">
-                    <img src="./IMAGENS/Foto1.png" alt="Foto 1">
-                    <img src="./IMAGENS/Foto2.png" alt="Foto 2">
+            <section class="sobre" id="sobre">
+                <div class="container">
+                    <h2>Quem somos</h2>
+                    <p>No Recanto Cerimonial, oferecemos atendimento personalizado para casais que desejam vivenciar um evento único. Nossa equipe reúne experiência em decoração, buffet, música e coordenação para entregar um casamento memorável.</p>
+                </div>
+            </section>
 
-                    <img src="./IMAGENS/Foto3.png" alt="Foto 3">
-                    <img src="./IMAGENS/Foto4.png" alt="Foto 4">
+            <section class="servicos" id="servicos">
+                <div class="container">
+                    <h2>Nossos serviços</h2>
+                    <div class="cards">
+                        <article class="card">
+                            <h3>Planejamento completo</h3>
+                            <p>Do conceito à execução, cuidamos de todo o cronograma, fornecedores e logística do seu grande dia.</p>
+                        </article>
+                        <article class="card">
+                            <h3>Decoração personalizada</h3>
+                            <p>Montámos cenários que reflitam a identidade do casal, com flores, iluminação e ambientação única.</p>
+                        </article>
+                        <article class="card">
+                            <h3>Assessoria e cerimonial</h3>
+                            <p>Equipe especializada para conduzir cerimonia, recepção e garantir que tudo aconteça no tempo certo.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
 
-                    <img src="./IMAGENS/Foto5.png" alt="Foto 5">
-                    <img src="./IMAGENS/Foto6.png" alt="Foto 6">
+            <section class="agendar" id="agendar">
+                <div class="container">
+                    <h2>Agende uma visita</h2>
+                    <p>Preencha o formulário abaixo e entraremos em contato para montar a proposta perfeita para você.</p>
+                    <form class="form" action="#" method="post">
+                        <div class="form-grid">
+                            <label>
+                                Nome
+                                <input type="text" name="nome" placeholder="Seu nome" required>
+                            </label>
+                            <label>
+                                E-mail
+                                <input type="email" name="email" placeholder="seu@exemplo.com" required>
+                            </label>
+                            <label>
+                                Data do casamento
+                                <input type="date" name="data" required>
+                            </label>
+                            <label>
+                                Local (cidade / estado)
+                                <input type="text" name="local" placeholder="Onde será o evento" required>
+                            </label>
+                        </div>
+                        <label class="full-width">
+                            Mensagem (opcional)
+                            <textarea name="mensagem" rows="4" placeholder="Conte-nos mais sobre sua ideia"></textarea>
+                        </label>
+                        <button class="btn-primary" type="submit">Enviar pedido</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="depoimentos" id="depoimentos">
+                <div class="container">
+                    <h2>O que nossos casais dizem</h2>
+                    <div class="testimonials">
+                        <blockquote>
+                            “O Recanto Cerimonial tornou nosso casamento mágico. Cada detalhe foi perfeito e a equipe se antecipou a tudo.”
+                            <footer>— Ana & João</footer>
+                        </blockquote>
+                        <blockquote>
+                            “Atendimento impecável e muita criatividade no projeto. Recomendamos para quem quer tranquilidade no dia.”
+                            <footer>— Luiza & Paulo</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <div>
+                    <h3>Recanto Cerimonial</h3>
+                    <p>Rua Exemplo, 123 • Bairro dos Sonhos • Cidade dos Noivos</p>
+                    <p>Email: contato@recantocerimonial.com | Tel: (11) 99999-9999</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#agendar">Agendar</a>
+                </div>
             </div>
-        </div>
-    </section>
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> Recanto Cerimonial. Todos os direitos reservados.</p>
+            </div>
+        </footer>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <p>&copy; 2023 Recanto Cerimonial. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-</body>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
+    </body>
 </html>
