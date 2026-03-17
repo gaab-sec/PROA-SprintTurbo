@@ -1,0 +1,117 @@
+/* Estilos específicos para a página de Ricardo e Letícia */
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero-wedding.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.couple, .details, .gallery {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.couple h2, .details h2, .gallery h2 {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.couple p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.couple-photos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.couple-photos img {
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+}
+
+.couple-photos img:hover {
+    transform: scale(1.05);
+}
+
+.details ul {
+    list-style: none;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    background: var(--color-card);
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.details li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.photos img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+}
+
+.photos img:hover {
+    transform: scale(1.02);
+}
+
+.site-footer {
+    background: var(--color-text);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .couple h2, .details h2, .gallery h2 {
+        font-size: 2rem;
+    }
+    .couple-photos {
+        gap: 20px;
+    }
+    .photos {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
