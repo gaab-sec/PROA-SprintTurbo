@@ -68,6 +68,7 @@ a {
   letter-spacing: 0.1em;
   font-size: 1.2rem;
   text-transform: uppercase;
+  width: 5vw;
 }
 
 .nav {

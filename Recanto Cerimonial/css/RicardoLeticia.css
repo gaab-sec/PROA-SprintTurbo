@@ -1,7 +1,7 @@
 /* Estilos específicos para a página de Ricardo e Letícia */
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero-wedding.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../IMAGENS/CasamentoFundo.png") center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 100px 0;
